@@ -18,7 +18,7 @@ def self.count
 end
 
 def say_species(species)
-  @species = species
+  @species
 end
 
 def self.reset_all
