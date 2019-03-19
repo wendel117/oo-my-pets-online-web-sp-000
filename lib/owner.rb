@@ -5,7 +5,7 @@ class Owner
   @@all = []
   @@count = 0
 
-  def initialize
+  def initialize(name)
     @name = name
     @species = species
     @@all << self
