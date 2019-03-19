@@ -1,14 +1,14 @@
 class Owner
   # code goes here
   attr_accessor :pets, :species, :all, :name
-  @pets = {fishes: [], cats: [], dogs: []}
+  @pets = {}
   @@all = []
   @@count = 0
 
   def initialize(name)
     @name = name
     @species = species
-    @pets = pets
+    @pets = {fishes: [], cats: [], dogs: []}
     @@all << self
     @@count += 1
   end
