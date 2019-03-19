@@ -5,7 +5,7 @@ class Owner
   @@all = []
   @@count = 0
 
-  def initialize(name)
+  def initialize(species)
     @name = name
     @species = species
     @pets = {fishes: [], cats: [], dogs: []}
