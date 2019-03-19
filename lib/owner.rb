@@ -49,7 +49,7 @@ def plays_with_cats
   @mood == "happy"
 end
 
-def feeds_fish
+def feed_fish
   @mood == "happy"
 end
 
