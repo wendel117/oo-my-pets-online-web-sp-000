@@ -15,6 +15,10 @@ def self.count
   @@count
 end
 
+def self.reset_all
+end
+
+
 def self.all
   @@all
 end
