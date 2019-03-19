@@ -32,7 +32,7 @@ def self.all
   @@all
 end
 
-def buy_fish
+def buy_fish(fish)
 end
 
 def buy_cat
@@ -42,7 +42,7 @@ def buy_dog
 end
 
 def walk_dogs
-  
+
 end
 
 def play_with_cats
