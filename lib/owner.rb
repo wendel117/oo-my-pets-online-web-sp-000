@@ -33,6 +33,7 @@ def self.all
 end
 
 def buy_fish(fish)
+  @pets << self
 end
 
 def buy_cat
