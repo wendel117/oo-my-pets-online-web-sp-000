@@ -19,7 +19,7 @@ def self.count
 end
 
 def say_species
-  return "I am a human."
+  "I am a " + @species + ".
 end
 
 def self.reset_all
