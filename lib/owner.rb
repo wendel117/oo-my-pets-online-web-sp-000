@@ -18,7 +18,7 @@ def self.count
 end
 
 def say_species
-  return "I am a human"
+  return "I am a human."
 
 end
 
