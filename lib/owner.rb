@@ -16,6 +16,10 @@ def self.count
   @@count
 end
 
+def say_species
+  @species
+end
+
 def self.reset_all
   @@all = []
   @@count = 0
