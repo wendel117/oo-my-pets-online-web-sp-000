@@ -57,12 +57,11 @@ def feed_fish
 end
 
 def sell_pets
-  @pets = []
-  @pets[:fishes].each {|fish| fish.mood = "nervous"}
-  @pets[:cats].each {|cat| cat.mood = "nervous"}
-  @pets[:dogs].each {|dog| dog.mood = "nervous"}
-@pets = []
-end
+    @pets.each do |type, pets| 
+      pets.each{|pet| pet.mood = "nervous"}
+      @pets[type] = []
+    end
+  end
 
 def list_pets
 "I have #{@pets[:fishes].length} fish, #{@pets[:dogs].length} dog(s), and #{@pets[:cats].length} cat(s)."
