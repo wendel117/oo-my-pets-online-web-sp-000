@@ -19,8 +19,8 @@ def self.count
 end
 
 def say_species
-    "I am a " + @species + "."
-  end
+  return "I am a human."
+end
 
 def self.reset_all
   @@all = []
@@ -33,7 +33,7 @@ def self.all
 end
 
 def buy_fish(fish)
-  @pets <<
+  @pets << fish
 end
 
 def buy_cat
