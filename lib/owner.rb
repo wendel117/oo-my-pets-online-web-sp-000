@@ -57,7 +57,7 @@ def feed_fish
 end
 
 def sell_pets
-
+  @pets = []
 end
 
 def list_pets
