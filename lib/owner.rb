@@ -17,8 +17,9 @@ def self.count
   @@count
 end
 
-def say_species
-  @species
+def say_species(species)
+  puts "I am a #{species}"
+
 end
 
 def self.reset_all
