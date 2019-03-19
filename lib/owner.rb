@@ -58,6 +58,9 @@ end
 
 def sell_pets
   @pets = []
+  @pets[:fishes]. each {|fish| fish.mood = "nervous"}
+  @pets[:cats].each {|cat| cat.mood = "nervous"}
+  @pets[:dogs].each {|dog| dog.mood = "nervous"}
 end
 
 def list_pets
