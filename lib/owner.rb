@@ -17,7 +17,7 @@ def self.count
   @@count
 end
 
-def say_species
+def say_species(species)
   @species = species
 end
 
