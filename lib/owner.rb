@@ -61,7 +61,7 @@ def sell_pets
 end
 
 def list_pets
-  @@all
+"I have #{@pets[:fishes].length} fish, #{@pets[:dogs].length} dog(s), and #{@pets[:cats].length} cat(s)."
 end
 
 end
