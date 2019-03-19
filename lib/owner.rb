@@ -33,7 +33,7 @@ def self.all
 end
 
 def buy_fish(fish)
-  @pets << self
+  @pets << 
 end
 
 def buy_cat
