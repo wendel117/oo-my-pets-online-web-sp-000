@@ -19,8 +19,8 @@ def self.count
 end
 
 def say_species
-  "I am a " + @species + "."
-end
+    "I am a " + @species + "."
+  end
 
 def self.reset_all
   @@all = []
