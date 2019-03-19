@@ -49,7 +49,7 @@ def walk_dogs
 end
 
 def play_with_cats
-  @pets[:dogs].each {|dog| dog.mood = "happy"}
+  @pets[:cats].each {|dog| dog.mood = "happy"}
 end
 
 def feed_fish
