@@ -61,7 +61,7 @@ def sell_pets
 end
 
 def list_pets
-  @@all 
+  @@all
 end
 
 end
