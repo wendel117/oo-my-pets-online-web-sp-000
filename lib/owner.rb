@@ -4,5 +4,5 @@ class Owner
   @pets = {fishes: [], cats: [], dogs: []}
   @@all 
 
-  
+
 end
