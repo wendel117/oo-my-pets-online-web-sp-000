@@ -57,7 +57,7 @@ def feed_fish
 end
 
 def sell_pets
-    @pets.each do |type, pets| 
+    @pets.each do |type, pets|
       pets.each{|pet| pet.mood = "nervous"}
       @pets[type] = []
     end
